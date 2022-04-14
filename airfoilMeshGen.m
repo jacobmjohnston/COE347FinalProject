@@ -1,17 +1,17 @@
 % Parameters
-t = 0.25;            % Half thickness of airfoil at midway
+t = 0.5;            % Half thickness of airfoil at midway
 c = 0.5;            % Half chord length
 H = 4;              % Half height
 Lw = 6;             % Length of wake region
-Lf = 3;             % Length of fore region
+Lf = 4;             % Length of fore region
 d = .5;             % Width of "circular" region
 fac = c/t;          % Vertical stretch factor for d
-type = "diamond";   % Type of airfoil
+type = "cylinder";   % Type of airfoil
 n = 8;              % Number of points on airfoil and "circular" region 
 fileName = "blockMeshDict";
 
-nx = [20,10,30,40,50,60];    % Radial, polar, east, north, west, south
-ex = [2, 1, 3, 4, 5, 6];
+nx = [30,20,10,10,10,10];    % Radial, polar, east, north, west, south
+ex = [2, 1, 1, 1, 1, 1];
 
 % Requires n%8 = 0
 n = n - mod(n,8);
@@ -64,10 +64,10 @@ for i = (1:(m/8))
     Vert(1:2,2*n + i) = [Lw;Vert(2,n + i)];
 end
 for i = (m/8+2):(3*m/8)
-    Vert(1:2,2*n + i) = [Vert(1,n + i),H];
+    Vert(1:2,2*n + i) = [Vert(1,n + i - 2),H];
 end
 for i = (3*m/8+2):(m/2+1)
-    Vert(1:2,2*n + i) = [-Lf,Vert(2,n + i)];
+    Vert(1:2,2*n + i) = [-Lf,Vert(2,n + i - 4)];
 end
 j = 1;
 for i = (m):-1:(m/2+2)
@@ -186,21 +186,31 @@ fileStr = [fileStr, ");", " ", "edges", "("];
 f1 = @(x)(airfoil(x,t,c,type));
 f2 = @(x)(airfoil(x,t + fac*d,c + d,type)); 
 
-for i = 1:n
-    x = midpoint(f1,Vert(1,i),Vert(1,mod(i,n)+1));
+for i = 1:(n/2)
+    x1 = midpoint(f1,Vert(1,i),Vert(1,mod(i,n)+1));
+    x2 = midpoint(f2,Vert(1,i+n),Vert(1,mod(i,n)+1+n));
     fileStr = [fileStr, append("     arc ", num2str(i-1), " ", num2str(mod(i,n)), ...
-        " ( ", num2str(x), " ", num2str(f1(x)), " -0.05 )"), ...
+        " ( ", num2str(x1), " ", num2str(f1(x1)), " -0.05 )"), ...
+        append("     arc ", num2str(i-1+n), " ", num2str(mod(i,n)+n), ...
+        " ( ", num2str(x2), " ", num2str(f2(x2)), " -0.05 )"), ...
         append("     arc ", num2str(i-1+N/2), " ", num2str(mod(i,n)+N/2), ...
-        " ( ", num2str(x), " ", num2str(f1(x)), " 0.05 )")];
+        " ( ", num2str(x1), " ", num2str(f1(x1)), " 0.05 )"), ...
+        append("     arc ", num2str(i-1+n+N/2), " ", num2str(mod(i,n)+n+N/2), ...
+        " ( ", num2str(x2), " ", num2str(f2(x2)), " 0.05 )")];
+end
+for i = (n/2+1):n
+    x1 = midpoint(f1,Vert(1,i),Vert(1,mod(i,n)+1));
+    x2 = midpoint(f2,Vert(1,i+n),Vert(1,mod(i,n)+1+n));
+    fileStr = [fileStr, append("     arc ", num2str(i-1), " ", num2str(mod(i,n)), ...
+        " ( ", num2str(x1), " ", num2str(-f1(x1)), " -0.05 )"), ...
+        append("     arc ", num2str(i-1+n), " ", num2str(mod(i,n)+n), ...
+        " ( ", num2str(x2), " ", num2str(-f2(x2)), " -0.05 )"), ...
+        append("     arc ", num2str(i-1+N/2), " ", num2str(mod(i,n)+N/2), ...
+        " ( ", num2str(x1), " ", num2str(-f1(x1)), " 0.05 )"), ...
+        append("     arc ", num2str(i-1+n+N/2), " ", num2str(mod(i,n)+n+N/2), ...
+        " ( ", num2str(x2), " ", num2str(-f2(x2)), " 0.05 )")];
 end
 
-for i = 1:n
-    x = midpoint(f2,Vert(1,i+n),Vert(1,mod(i,n)+1+n));
-    fileStr = [fileStr, append("     arc ", num2str(i-1+n), " ", num2str(mod(i,n)+n), ...
-        " ( ", num2str(x), " ", num2str(f2(x)), " -0.05 )"), ...
-        append("     arc ", num2str(i-1+N/2), " ", num2str(mod(i,n)+N/2), ...
-        " ( ", num2str(x), " ", num2str(f2(x)), " 0.05 )")];
-end
 fileStr = [fileStr, " ", ");", " ",...
            "boundary",...
            "( ",...
