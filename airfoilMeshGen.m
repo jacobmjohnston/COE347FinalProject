@@ -1,17 +1,17 @@
 % Parameters
-t = 0.5;            % Half thickness of airfoil at midway
+t = 0.1;            % Half thickness of airfoil at midway
 c = 0.5;            % Half chord length
 H = 4;              % Half height
 Lw = 6;             % Length of wake region
 Lf = 4;             % Length of fore region
 d = .5;             % Width of "circular" region
-fac = c/t;          % Vertical stretch factor for d
-type = "cylinder";   % Type of airfoil
+fac = 1;          % Vertical stretch factor for d
+type = "diamond";   % Type of airfoil
 n = 8;              % Number of points on airfoil and "circular" region 
 fileName = "blockMeshDict";
 
-nx = [30,20,10,10,10,10];    % Radial, polar, east, north, west, south
-ex = [2, 1, 1, 1, 1, 1];
+nx = [40,20,40,20,10,20];    % Radial, polar, east, north, west, south
+ex = [2, 1, 2, 3, 5, 3];
 
 % Requires n%8 = 0
 n = n - mod(n,8);
@@ -181,34 +181,36 @@ for i = 1:length(Block(1,:))
         num2str(Block(14,i)), ")")];
 end
 
-fileStr = [fileStr, ");", " ", "edges", "("];
-
-f1 = @(x)(airfoil(x,t,c,type));
-f2 = @(x)(airfoil(x,t + fac*d,c + d,type)); 
-
-for i = 1:(n/2)
-    x1 = midpoint(f1,Vert(1,i),Vert(1,mod(i,n)+1));
-    x2 = midpoint(f2,Vert(1,i+n),Vert(1,mod(i,n)+1+n));
-    fileStr = [fileStr, append("     arc ", num2str(i-1), " ", num2str(mod(i,n)), ...
-        " ( ", num2str(x1), " ", num2str(f1(x1)), " -0.05 )"), ...
-        append("     arc ", num2str(i-1+n), " ", num2str(mod(i,n)+n), ...
-        " ( ", num2str(x2), " ", num2str(f2(x2)), " -0.05 )"), ...
-        append("     arc ", num2str(i-1+N/2), " ", num2str(mod(i,n)+N/2), ...
-        " ( ", num2str(x1), " ", num2str(f1(x1)), " 0.05 )"), ...
-        append("     arc ", num2str(i-1+n+N/2), " ", num2str(mod(i,n)+n+N/2), ...
-        " ( ", num2str(x2), " ", num2str(f2(x2)), " 0.05 )")];
-end
-for i = (n/2+1):n
-    x1 = midpoint(f1,Vert(1,i),Vert(1,mod(i,n)+1));
-    x2 = midpoint(f2,Vert(1,i+n),Vert(1,mod(i,n)+1+n));
-    fileStr = [fileStr, append("     arc ", num2str(i-1), " ", num2str(mod(i,n)), ...
-        " ( ", num2str(x1), " ", num2str(-f1(x1)), " -0.05 )"), ...
-        append("     arc ", num2str(i-1+n), " ", num2str(mod(i,n)+n), ...
-        " ( ", num2str(x2), " ", num2str(-f2(x2)), " -0.05 )"), ...
-        append("     arc ", num2str(i-1+N/2), " ", num2str(mod(i,n)+N/2), ...
-        " ( ", num2str(x1), " ", num2str(-f1(x1)), " 0.05 )"), ...
-        append("     arc ", num2str(i-1+n+N/2), " ", num2str(mod(i,n)+n+N/2), ...
-        " ( ", num2str(x2), " ", num2str(-f2(x2)), " 0.05 )")];
+if type ~= "diamond"
+    fileStr = [fileStr, ");", " ", "edges", "("];
+    
+    f1 = @(x)(airfoil(x,t,c,type));
+    f2 = @(x)(airfoil(x,t + fac*d,c + d,type)); 
+    
+    for i = 1:(n/2)
+        x1 = midpoint(f1,Vert(1,i),Vert(1,mod(i,n)+1));
+        x2 = midpoint(f2,Vert(1,i+n),Vert(1,mod(i,n)+1+n));
+        fileStr = [fileStr, append("     arc ", num2str(i-1), " ", num2str(mod(i,n)), ...
+            " ( ", num2str(x1), " ", num2str(f1(x1)), " -0.05 )"), ...
+            append("     arc ", num2str(i-1+n), " ", num2str(mod(i,n)+n), ...
+            " ( ", num2str(x2), " ", num2str(f2(x2)), " -0.05 )"), ...
+            append("     arc ", num2str(i-1+N/2), " ", num2str(mod(i,n)+N/2), ...
+            " ( ", num2str(x1), " ", num2str(f1(x1)), " 0.05 )"), ...
+            append("     arc ", num2str(i-1+n+N/2), " ", num2str(mod(i,n)+n+N/2), ...
+            " ( ", num2str(x2), " ", num2str(f2(x2)), " 0.05 )")];
+    end
+    for i = (n/2+1):n
+        x1 = midpoint(f1,Vert(1,i),Vert(1,mod(i,n)+1));
+        x2 = midpoint(f2,Vert(1,i+n),Vert(1,mod(i,n)+1+n));
+        fileStr = [fileStr, append("     arc ", num2str(i-1), " ", num2str(mod(i,n)), ...
+            " ( ", num2str(x1), " ", num2str(-f1(x1)), " -0.05 )"), ...
+            append("     arc ", num2str(i-1+n), " ", num2str(mod(i,n)+n), ...
+            " ( ", num2str(x2), " ", num2str(-f2(x2)), " -0.05 )"), ...
+            append("     arc ", num2str(i-1+N/2), " ", num2str(mod(i,n)+N/2), ...
+            " ( ", num2str(x1), " ", num2str(-f1(x1)), " 0.05 )"), ...
+            append("     arc ", num2str(i-1+n+N/2), " ", num2str(mod(i,n)+n+N/2), ...
+            " ( ", num2str(x2), " ", num2str(-f2(x2)), " 0.05 )")];
+    end
 end
 
 fileStr = [fileStr, " ", ");", " ",...
@@ -281,6 +283,15 @@ fileStr = [fileStr, " ", ");", " ",...
 writelines(fileStr,fileName)
 clear opt x g theta set* pL m s* num i j k f o 
 
+
+%% Plotting
+display = 1;
+if display == 1
+    hold on;
+    plot([Vert(1,1:n), Vert(1,1)],[Vert(2,1:n), Vert(2,1)])
+    plot([Vert(1,(n+1:2*n)), Vert(1,n+1)],[Vert(2,(n+1:2*n)), Vert(2,n+1)])
+    axis([-(Lf+1),(Lw+1),-(H+1),(H+1)])
+end
 
 %% Functions
 function y = airfoil(x,t,c,type)
