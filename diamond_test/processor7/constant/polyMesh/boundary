@@ -15,7 +15,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-12
+11
 (
     inlet
     {
@@ -61,7 +61,7 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          16;
+        nFaces          17;
         startFace       1286;
         matchTolerance  0.0001;
         transform       unknown;
@@ -72,8 +72,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          26;
-        startFace       1302;
+        nFaces          25;
+        startFace       1303;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        7;
@@ -83,30 +83,19 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          19;
+        nFaces          17;
         startFace       1328;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        7;
         neighbProcNo    8;
     }
-    procBoundary7to12
-    {
-        type            processor;
-        inGroups        List<word> 1(processor);
-        nFaces          3;
-        startFace       1347;
-        matchTolerance  0.0001;
-        transform       unknown;
-        myProcNo        7;
-        neighbProcNo    12;
-    }
     procBoundary7to13
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          24;
-        startFace       1350;
+        nFaces          27;
+        startFace       1345;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        7;
@@ -116,8 +105,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          4;
-        startFace       1374;
+        nFaces          6;
+        startFace       1372;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        7;

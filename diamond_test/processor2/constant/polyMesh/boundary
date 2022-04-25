@@ -21,48 +21,48 @@ FoamFile
     {
         type            patch;
         nFaces          0;
-        startFace       624;
+        startFace       625;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       624;
+        startFace       625;
     }
     airfoil
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          0;
-        startFace       624;
+        startFace       625;
     }
     top
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       624;
+        startFace       625;
     }
     bottom
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          12;
-        startFace       624;
+        startFace       625;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          666;
-        startFace       636;
+        startFace       637;
     }
     procBoundary2to1
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          26;
-        startFace       1302;
+        nFaces          27;
+        startFace       1303;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        2;
@@ -72,8 +72,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          26;
-        startFace       1328;
+        nFaces          28;
+        startFace       1330;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        2;
@@ -83,8 +83,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          20;
-        startFace       1354;
+        nFaces          15;
+        startFace       1358;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        2;

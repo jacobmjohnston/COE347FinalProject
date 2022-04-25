@@ -15,13 +15,13 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-11
+9
 (
     inlet
     {
         type            patch;
-        nFaces          8;
-        startFace       603;
+        nFaces          6;
+        startFace       605;
     }
     outlet
     {
@@ -61,29 +61,18 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          47;
+        nFaces          48;
         startFace       1277;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        18;
         neighbProcNo    12;
     }
-    procBoundary18to13
-    {
-        type            processor;
-        inGroups        List<word> 1(processor);
-        nFaces          1;
-        startFace       1324;
-        matchTolerance  0.0001;
-        transform       unknown;
-        myProcNo        18;
-        neighbProcNo    13;
-    }
     procBoundary18to19
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          22;
+        nFaces          27;
         startFace       1325;
         matchTolerance  0.0001;
         transform       unknown;
@@ -94,23 +83,12 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          45;
-        startFace       1347;
+        nFaces          41;
+        startFace       1352;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        18;
         neighbProcNo    24;
-    }
-    procBoundary18to25
-    {
-        type            processor;
-        inGroups        List<word> 1(processor);
-        nFaces          3;
-        startFace       1392;
-        matchTolerance  0.0001;
-        transform       unknown;
-        myProcNo        18;
-        neighbProcNo    25;
     }
 )
 
