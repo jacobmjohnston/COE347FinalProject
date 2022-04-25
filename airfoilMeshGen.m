@@ -78,12 +78,12 @@ for i = (m):-1:(m/2+2)
     j = j + 1;
 end
 
+Vert(1:2,1:2*n) = [cosd(alpha) sind(alpha); -sind(alpha) cosd(alpha)]*Vert(1:2,1:2*n);
+
 % Flips vertices
 for i = (N/2+1):N
     Vert(:,i) = [1 0 0; 0 1 0; 0 0 -1]*Vert(:,i-N/2);
 end
-
-Vert(1:2,1:2*n) = [cosd(alpha) sind(alpha); -sind(alpha) cosd(alpha)]*Vert(1:2,1:2*n);
 
 % First n block in airfoil-circular region
 Block = zeros(14,bN);
