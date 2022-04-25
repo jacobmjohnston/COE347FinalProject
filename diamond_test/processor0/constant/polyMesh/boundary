@@ -15,54 +15,54 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-9
+8
 (
     inlet
     {
         type            patch;
-        nFaces          28;
-        startFace       617;
+        nFaces          24;
+        startFace       622;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       645;
+        startFace       646;
     }
     airfoil
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          0;
-        startFace       645;
+        startFace       646;
     }
     top
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       645;
+        startFace       646;
     }
     bottom
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
-        nFaces          12;
-        startFace       645;
+        nFaces          14;
+        startFace       646;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          666;
-        startFace       657;
+        startFace       660;
     }
     procBoundary0to1
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          21;
-        startFace       1323;
+        nFaces          28;
+        startFace       1326;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        0;
@@ -72,23 +72,12 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          26;
-        startFace       1344;
+        nFaces          22;
+        startFace       1354;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        0;
         neighbProcNo    6;
-    }
-    procBoundary0to7
-    {
-        type            processor;
-        inGroups        List<word> 1(processor);
-        nFaces          11;
-        startFace       1370;
-        matchTolerance  0.0001;
-        transform       unknown;
-        myProcNo        0;
-        neighbProcNo    7;
     }
 )
 

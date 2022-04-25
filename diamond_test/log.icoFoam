@@ -8,50 +8,50 @@
 Build  : 7-49b2b3b8b082
 Exec   : icoFoam -parallel
 Date   : Apr 24 2022
-Time   : 19:56:35
-Host   : "c417-092.stampede2.tacc.utexas.edu"
-PID    : 261581
+Time   : 20:25:40
+Host   : "c416-074.stampede2.tacc.utexas.edu"
+PID    : 95822
 I/O    : uncollated
 Case   : /work2/07705/jmj3957/stampede2/COE347FinalProject/diamond_test
 nProcs : 36
 Slaves : 
 35
 (
-"c417-092.stampede2.tacc.utexas.edu.261582"
-"c417-092.stampede2.tacc.utexas.edu.261583"
-"c417-092.stampede2.tacc.utexas.edu.261584"
-"c417-092.stampede2.tacc.utexas.edu.261585"
-"c417-092.stampede2.tacc.utexas.edu.261586"
-"c417-092.stampede2.tacc.utexas.edu.261587"
-"c417-092.stampede2.tacc.utexas.edu.261588"
-"c417-092.stampede2.tacc.utexas.edu.261589"
-"c417-092.stampede2.tacc.utexas.edu.261590"
-"c417-092.stampede2.tacc.utexas.edu.261591"
-"c417-092.stampede2.tacc.utexas.edu.261592"
-"c417-092.stampede2.tacc.utexas.edu.261593"
-"c417-092.stampede2.tacc.utexas.edu.261594"
-"c417-092.stampede2.tacc.utexas.edu.261595"
-"c417-092.stampede2.tacc.utexas.edu.261596"
-"c417-092.stampede2.tacc.utexas.edu.261597"
-"c417-092.stampede2.tacc.utexas.edu.261598"
-"c417-092.stampede2.tacc.utexas.edu.261599"
-"c417-092.stampede2.tacc.utexas.edu.261600"
-"c417-092.stampede2.tacc.utexas.edu.261601"
-"c417-092.stampede2.tacc.utexas.edu.261602"
-"c417-092.stampede2.tacc.utexas.edu.261603"
-"c417-092.stampede2.tacc.utexas.edu.261604"
-"c417-092.stampede2.tacc.utexas.edu.261605"
-"c417-092.stampede2.tacc.utexas.edu.261606"
-"c417-092.stampede2.tacc.utexas.edu.261607"
-"c417-092.stampede2.tacc.utexas.edu.261608"
-"c417-092.stampede2.tacc.utexas.edu.261609"
-"c417-092.stampede2.tacc.utexas.edu.261610"
-"c417-092.stampede2.tacc.utexas.edu.261611"
-"c417-092.stampede2.tacc.utexas.edu.261612"
-"c417-092.stampede2.tacc.utexas.edu.261613"
-"c417-092.stampede2.tacc.utexas.edu.261614"
-"c417-092.stampede2.tacc.utexas.edu.261615"
-"c417-092.stampede2.tacc.utexas.edu.261616"
+"c416-074.stampede2.tacc.utexas.edu.95823"
+"c416-074.stampede2.tacc.utexas.edu.95824"
+"c416-074.stampede2.tacc.utexas.edu.95825"
+"c416-074.stampede2.tacc.utexas.edu.95826"
+"c416-074.stampede2.tacc.utexas.edu.95827"
+"c416-074.stampede2.tacc.utexas.edu.95828"
+"c416-074.stampede2.tacc.utexas.edu.95829"
+"c416-074.stampede2.tacc.utexas.edu.95830"
+"c416-074.stampede2.tacc.utexas.edu.95831"
+"c416-074.stampede2.tacc.utexas.edu.95832"
+"c416-074.stampede2.tacc.utexas.edu.95833"
+"c416-074.stampede2.tacc.utexas.edu.95834"
+"c416-074.stampede2.tacc.utexas.edu.95835"
+"c416-074.stampede2.tacc.utexas.edu.95836"
+"c416-074.stampede2.tacc.utexas.edu.95837"
+"c416-074.stampede2.tacc.utexas.edu.95838"
+"c416-074.stampede2.tacc.utexas.edu.95839"
+"c416-074.stampede2.tacc.utexas.edu.95840"
+"c416-074.stampede2.tacc.utexas.edu.95841"
+"c416-074.stampede2.tacc.utexas.edu.95842"
+"c416-074.stampede2.tacc.utexas.edu.95843"
+"c416-074.stampede2.tacc.utexas.edu.95844"
+"c416-074.stampede2.tacc.utexas.edu.95845"
+"c416-074.stampede2.tacc.utexas.edu.95846"
+"c416-074.stampede2.tacc.utexas.edu.95847"
+"c416-074.stampede2.tacc.utexas.edu.95848"
+"c416-074.stampede2.tacc.utexas.edu.95849"
+"c416-074.stampede2.tacc.utexas.edu.95850"
+"c416-074.stampede2.tacc.utexas.edu.95851"
+"c416-074.stampede2.tacc.utexas.edu.95852"
+"c416-074.stampede2.tacc.utexas.edu.95853"
+"c416-074.stampede2.tacc.utexas.edu.95854"
+"c416-074.stampede2.tacc.utexas.edu.95855"
+"c416-074.stampede2.tacc.utexas.edu.95856"
+"c416-074.stampede2.tacc.utexas.edu.95857"
 )
 
 Pstream initialized with:
@@ -109,14 +109,14 @@ forceCoeffs forceCoeffs:
     Not including porosity effects
 Time = 0.0002
 
-Courant Number mean: 0.00201225 max: 0.0493232
-smoothSolver:  Solving for Ux, Initial residual = 1, Final residual = 5.53217e-08, No Iterations 11
+Courant Number mean: 0.00201276 max: 0.0450419
+smoothSolver:  Solving for Ux, Initial residual = 1, Final residual = 8.16508e-08, No Iterations 14
 smoothSolver:  Solving for Uy, Initial residual = 0, Final residual = 0, No Iterations 0
-DICPCG:  Solving for p, Initial residual = 1, Final residual = 9.05215e-08, No Iterations 316
-time step continuity errors : sum local = 9.09888e-14, global = 1.8165e-16, cumulative = 1.8165e-16
-DICPCG:  Solving for p, Initial residual = 0.346138, Final residual = 9.24003e-08, No Iterations 306
-time step continuity errors : sum local = 6.03365e-13, global = 6.88303e-15, cumulative = 7.06468e-15
-ExecutionTime = 0.68 s  ClockTime = 1 s
+DICPCG:  Solving for p, Initial residual = 1, Final residual = 9.15662e-08, No Iterations 297
+time step continuity errors : sum local = 9.19996e-14, global = 4.607e-16, cumulative = 4.607e-16
+DICPCG:  Solving for p, Initial residual = 0.239812, Final residual = 9.55323e-08, No Iterations 280
+time step continuity errors : sum local = 5.63981e-13, global = 3.87448e-15, cumulative = 4.33518e-15
+ExecutionTime = 0.7 s  ClockTime = 2 s
 
 forces forces write:
     sum of forces:
@@ -137,14 +137,14 @@ forceCoeffs forceCoeffs write:
 
 Time = 0.0004
 
-Courant Number mean: 0.0020045 max: 0.102732
-smoothSolver:  Solving for Ux, Initial residual = 0.23563, Final residual = 4.74916e-08, No Iterations 8
-smoothSolver:  Solving for Uy, Initial residual = 0.191074, Final residual = 4.07227e-08, No Iterations 9
-DICPCG:  Solving for p, Initial residual = 0.675274, Final residual = 9.39459e-08, No Iterations 299
-time step continuity errors : sum local = 1.26774e-12, global = 1.0474e-14, cumulative = 1.75387e-14
-DICPCG:  Solving for p, Initial residual = 0.878962, Final residual = 9.10256e-08, No Iterations 302
-time step continuity errors : sum local = 1.85629e-12, global = -4.00684e-16, cumulative = 1.7138e-14
-ExecutionTime = 0.76 s  ClockTime = 2 s
+Courant Number mean: 0.00200612 max: 0.0888285
+smoothSolver:  Solving for Ux, Initial residual = 0.220884, Final residual = 6.27971e-08, No Iterations 7
+smoothSolver:  Solving for Uy, Initial residual = 0.177669, Final residual = 4.57437e-08, No Iterations 9
+DICPCG:  Solving for p, Initial residual = 0.466059, Final residual = 9.31204e-08, No Iterations 282
+time step continuity errors : sum local = 7.31284e-13, global = 5.99305e-15, cumulative = 1.03282e-14
+DICPCG:  Solving for p, Initial residual = 0.714182, Final residual = 9.54598e-08, No Iterations 283
+time step continuity errors : sum local = 5.98433e-13, global = -4.03534e-15, cumulative = 6.29289e-15
+ExecutionTime = 0.8 s  ClockTime = 2 s
 
 forces forces write:
     sum of forces:
@@ -165,14 +165,14 @@ forceCoeffs forceCoeffs write:
 
 Time = 0.0006
 
-Courant Number mean: 0.00200921 max: 0.263218
-smoothSolver:  Solving for Ux, Initial residual = 0.039316, Final residual = 6.71229e-08, No Iterations 10
-smoothSolver:  Solving for Uy, Initial residual = 0.0947268, Final residual = 3.95454e-08, No Iterations 11
-DICPCG:  Solving for p, Initial residual = 0.994734, Final residual = 9.61515e-08, No Iterations 307
-time step continuity errors : sum local = 1.02523e-11, global = -3.49375e-14, cumulative = -1.77995e-14
-DICPCG:  Solving for p, Initial residual = 0.992395, Final residual = 9.92879e-08, No Iterations 305
-time step continuity errors : sum local = 2.67305e-11, global = 3.75308e-15, cumulative = -1.40464e-14
-ExecutionTime = 0.83 s  ClockTime = 2 s
+Courant Number mean: 0.00200605 max: 0.123534
+smoothSolver:  Solving for Ux, Initial residual = 0.0381678, Final residual = 7.16009e-08, No Iterations 10
+smoothSolver:  Solving for Uy, Initial residual = 0.0307927, Final residual = 7.14055e-08, No Iterations 9
+DICPCG:  Solving for p, Initial residual = 0.965865, Final residual = 9.32471e-08, No Iterations 286
+time step continuity errors : sum local = 1.38666e-12, global = -1.8155e-14, cumulative = -1.18621e-14
+DICPCG:  Solving for p, Initial residual = 0.971935, Final residual = 9.90111e-08, No Iterations 285
+time step continuity errors : sum local = 2.56813e-12, global = 1.71203e-14, cumulative = 5.25828e-15
+ExecutionTime = 0.86 s  ClockTime = 2 s
 
 forces forces write:
     sum of forces:
@@ -193,14 +193,14 @@ forceCoeffs forceCoeffs write:
 
 Time = 0.0008
 
-Courant Number mean: 0.0021298 max: 3.37086
-smoothSolver:  Solving for Ux, Initial residual = 0.0183001, Final residual = 9.66988e-08, No Iterations 12
-smoothSolver:  Solving for Uy, Initial residual = 0.229543, Final residual = 5.39871e-08, No Iterations 16
-DICPCG:  Solving for p, Initial residual = 0.994583, Final residual = 9.65809e-08, No Iterations 307
-time step continuity errors : sum local = 1.62989e-10, global = -1.7135e-13, cumulative = -1.85397e-13
-DICPCG:  Solving for p, Initial residual = 0.990167, Final residual = 9.57594e-08, No Iterations 306
-time step continuity errors : sum local = 4.19744e-10, global = -8.32279e-13, cumulative = -1.01768e-12
-ExecutionTime = 0.9 s  ClockTime = 2 s
+Courant Number mean: 0.00201149 max: 0.358038
+smoothSolver:  Solving for Ux, Initial residual = 0.0270846, Final residual = 8.6842e-08, No Iterations 11
+smoothSolver:  Solving for Uy, Initial residual = 0.0735575, Final residual = 6.38218e-08, No Iterations 11
+DICPCG:  Solving for p, Initial residual = 0.996496, Final residual = 9.94084e-08, No Iterations 285
+time step continuity errors : sum local = 9.66273e-12, global = -7.1718e-14, cumulative = -6.64597e-14
+DICPCG:  Solving for p, Initial residual = 0.996548, Final residual = 9.64484e-08, No Iterations 285
+time step continuity errors : sum local = 1.73674e-11, global = 1.3097e-13, cumulative = 6.45099e-14
+ExecutionTime = 0.93 s  ClockTime = 2 s
 
 forces forces write:
     sum of forces:
@@ -221,35 +221,51 @@ forceCoeffs forceCoeffs write:
 
 Time = 0.001
 
-Courant Number mean: 0.00418246 max: 81.324
-[12] #0  [18] #0  Foam::error::printStack(Foam::Ostream&)Foam::error::printStack(Foam::Ostream&) at ??:?
- at ??:?
-[12] #1  Foam::sigFpe::sigHandler(int)[18] #1  Foam::sigFpe::sigHandler(int) at ??:?
-[18] #2  ? at ??:?
-[12] #2  ? in "/lib64/libpthread.so.0"
-[18] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
-[12] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) at ??:?
+Courant Number mean: 0.00207138 max: 2.34654
+smoothSolver:  Solving for Ux, Initial residual = 0.0209896, Final residual = 3.08266e-08, No Iterations 9
+smoothSolver:  Solving for Uy, Initial residual = 0.185019, Final residual = 3.8457e-08, No Iterations 9
+DICPCG:  Solving for p, Initial residual = 0.994197, Final residual = 9.18343e-08, No Iterations 285
+time step continuity errors : sum local = 6.28723e-11, global = -5.19185e-13, cumulative = -4.54675e-13
+DICPCG:  Solving for p, Initial residual = 0.992606, Final residual = 8.79282e-08, No Iterations 285
+time step continuity errors : sum local = 1.12186e-10, global = 1.10175e-12, cumulative = 6.47079e-13
+ExecutionTime = 1 s  ClockTime = 2 s
+
+forces forces write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+
+forceCoeffs forceCoeffs write:
+    Cm    = 0
+    Cd    = 0
+    Cl    = 0
+    Cl(f) = 0
+    Cl(r) = 0
+
+Time = 0.0012
+
+Courant Number mean: 0.00250102 max: 21.7717
+[18] #0  Foam::error::printStack(Foam::Ostream&) at ??:?
+[18] #1  Foam::sigFpe::sigHandler(int) at ??:?
+[18] #2  ? in "/lib64/libpthread.so.0"
+[18] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) at ??:?
 [18] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
-[12] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
 [18] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
-[12] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
-[18] #6   at ??:?
-[12] #6  ?? at ??:?
-[18] #7   at ??:?
-[12] #7  ?? at ??:?
-[18] #8   at ??:?
-[12] #8  ?? at ??:?
-[18] #9   at ??:?
-[12] #9  ?? at ??:?
-[18] #10  __libc_start_main at ??:?
-[12] #10  __libc_start_main in "/lib64/libc.so.6"
-[18] #11   in "/lib64/libc.so.6"
-[12] #11  ?? at ??:?
- at ??:?
+[18] #6  ? at ??:?
+[18] #7  ? at ??:?
+[18] #8  ? at ??:?
+[18] #9  ? at ??:?
+[18] #10  __libc_start_main in "/lib64/libc.so.6"
+[18] #11  ? at ??:?
 
 ===================================================================================
 =   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
-=   PID 261599 RUNNING AT c417-092
+=   PID 95840 RUNNING AT c416-074
 =   EXIT CODE: 8
 =   CLEANING UP REMAINING PROCESSES
 =   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES

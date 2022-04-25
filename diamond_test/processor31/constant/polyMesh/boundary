@@ -21,27 +21,27 @@ FoamFile
     {
         type            patch;
         nFaces          0;
-        startFace       622;
+        startFace       624;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       622;
+        startFace       624;
     }
     airfoil
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          0;
-        startFace       622;
+        startFace       624;
     }
     top
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
-        nFaces          13;
-        startFace       622;
+        nFaces          11;
+        startFace       624;
     }
     bottom
     {
@@ -61,7 +61,7 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          20;
+        nFaces          15;
         startFace       1305;
         matchTolerance  0.0001;
         transform       unknown;
@@ -72,8 +72,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          9;
-        startFace       1325;
+        nFaces          3;
+        startFace       1320;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        31;
@@ -83,8 +83,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          27;
-        startFace       1334;
+        nFaces          32;
+        startFace       1323;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        31;
@@ -94,8 +94,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          27;
-        startFace       1361;
+        nFaces          31;
+        startFace       1355;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        31;

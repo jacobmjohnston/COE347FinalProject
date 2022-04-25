@@ -8,9 +8,9 @@
 Build  : 7-49b2b3b8b082
 Exec   : reconstructPar
 Date   : Apr 24 2022
-Time   : 19:56:38
-Host   : "c417-092.stampede2.tacc.utexas.edu"
-PID    : 261800
+Time   : 20:25:44
+Host   : "c416-074.stampede2.tacc.utexas.edu"
+PID    : 96025
 I/O    : uncollated
 Case   : /work2/07705/jmj3957/stampede2/COE347FinalProject/diamond_test
 nProcs : 1

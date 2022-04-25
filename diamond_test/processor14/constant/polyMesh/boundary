@@ -21,48 +21,48 @@ FoamFile
     {
         type            patch;
         nFaces          0;
-        startFace       611;
+        startFace       614;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       611;
+        startFace       614;
     }
     airfoil
     {
         type            wall;
         inGroups        List<word> 1(wall);
-        nFaces          31;
-        startFace       611;
+        nFaces          33;
+        startFace       614;
     }
     top
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       642;
+        startFace       647;
     }
     bottom
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       642;
+        startFace       647;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          666;
-        startFace       642;
+        startFace       647;
     }
     procBoundary14to7
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          10;
-        startFace       1308;
+        nFaces          12;
+        startFace       1313;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        14;
@@ -72,8 +72,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          28;
-        startFace       1318;
+        nFaces          26;
+        startFace       1325;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        14;
@@ -83,8 +83,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          9;
-        startFace       1346;
+        nFaces          5;
+        startFace       1351;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        14;
@@ -95,7 +95,7 @@ FoamFile
         type            processor;
         inGroups        List<word> 1(processor);
         nFaces          9;
-        startFace       1355;
+        startFace       1356;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        14;
@@ -105,8 +105,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          9;
-        startFace       1364;
+        nFaces          11;
+        startFace       1365;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        14;
@@ -116,8 +116,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          8;
-        startFace       1373;
+        nFaces          5;
+        startFace       1376;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        14;
@@ -127,7 +127,7 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          6;
+        nFaces          3;
         startFace       1381;
         matchTolerance  0.0001;
         transform       unknown;
