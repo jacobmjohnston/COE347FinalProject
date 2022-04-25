@@ -1,8 +1,0 @@
-/work2/07705/jmj3957/stampede2/COE347FinalProject/diamond_test
-Sun Apr 24 20:45:19 CDT 2022
-Running blockMesh on /work2/07705/jmj3957/stampede2/COE347FinalProject/diamond_test
-Running checkMesh on /work2/07705/jmj3957/stampede2/COE347FinalProject/diamond_test
-Running decomposePar on /work2/07705/jmj3957/stampede2/COE347FinalProject/diamond_test
-Running icoFoam in parallel on /work2/07705/jmj3957/stampede2/COE347FinalProject/diamond_test using 36 processes
-Running reconstructPar on /work2/07705/jmj3957/stampede2/COE347FinalProject/diamond_test
-Sun Apr 24 20:45:58 CDT 2022
