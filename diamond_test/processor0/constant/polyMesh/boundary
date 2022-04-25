@@ -15,54 +15,54 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-8
+9
 (
     inlet
     {
         type            patch;
-        nFaces          24;
+        nFaces          23;
         startFace       622;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       646;
+        startFace       645;
     }
     airfoil
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          0;
-        startFace       646;
+        startFace       645;
     }
     top
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       646;
+        startFace       645;
     }
     bottom
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          14;
-        startFace       646;
+        startFace       645;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          666;
-        startFace       660;
+        startFace       659;
     }
     procBoundary0to1
     {
         type            processor;
         inGroups        List<word> 1(processor);
         nFaces          28;
-        startFace       1326;
+        startFace       1325;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        0;
@@ -73,11 +73,22 @@ FoamFile
         type            processor;
         inGroups        List<word> 1(processor);
         nFaces          22;
-        startFace       1354;
+        startFace       1353;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        0;
         neighbProcNo    6;
+    }
+    procBoundary0to7
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          1;
+        startFace       1375;
+        matchTolerance  0.0001;
+        transform       unknown;
+        myProcNo        0;
+        neighbProcNo    7;
     }
 )
 

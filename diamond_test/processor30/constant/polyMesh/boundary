@@ -21,48 +21,48 @@ FoamFile
     {
         type            patch;
         nFaces          23;
-        startFace       622;
+        startFace       620;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       645;
+        startFace       643;
     }
     airfoil
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          0;
-        startFace       645;
+        startFace       643;
     }
     top
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          14;
-        startFace       645;
+        startFace       643;
     }
     bottom
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       659;
+        startFace       657;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          670;
-        startFace       659;
+        startFace       657;
     }
     procBoundary30to24
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          26;
-        startFace       1329;
+        nFaces          28;
+        startFace       1327;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        30;
@@ -72,7 +72,7 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          1;
+        nFaces          2;
         startFace       1355;
         matchTolerance  0.0001;
         transform       unknown;
@@ -83,8 +83,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          32;
-        startFace       1356;
+        nFaces          33;
+        startFace       1357;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        30;

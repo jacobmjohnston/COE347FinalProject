@@ -21,48 +21,48 @@ FoamFile
     {
         type            patch;
         nFaces          0;
-        startFace       627;
+        startFace       626;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       627;
+        startFace       626;
     }
     airfoil
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          0;
-        startFace       627;
+        startFace       626;
     }
     top
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       627;
+        startFace       626;
     }
     bottom
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
-        nFaces          18;
-        startFace       627;
+        nFaces          17;
+        startFace       626;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          666;
-        startFace       645;
+        startFace       643;
     }
     procBoundary4to3
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          23;
-        startFace       1311;
+        nFaces          25;
+        startFace       1309;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        4;
@@ -83,7 +83,7 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          17;
+        nFaces          18;
         startFace       1348;
         matchTolerance  0.0001;
         transform       unknown;
@@ -95,7 +95,7 @@ FoamFile
         type            processor;
         inGroups        List<word> 1(processor);
         nFaces          6;
-        startFace       1365;
+        startFace       1366;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        4;

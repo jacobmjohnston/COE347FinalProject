@@ -21,34 +21,34 @@ FoamFile
     {
         type            patch;
         nFaces          0;
-        startFace       618;
+        startFace       617;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       618;
+        startFace       617;
     }
     airfoil
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          0;
-        startFace       618;
+        startFace       617;
     }
     top
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       618;
+        startFace       617;
     }
     bottom
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
-        nFaces          11;
-        startFace       618;
+        nFaces          12;
+        startFace       617;
     }
     defaultFaces
     {
@@ -72,7 +72,7 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          23;
+        nFaces          25;
         startFace       1326;
         matchTolerance  0.0001;
         transform       unknown;
@@ -83,8 +83,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          5;
-        startFace       1349;
+        nFaces          4;
+        startFace       1351;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        3;
@@ -94,8 +94,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          17;
-        startFace       1354;
+        nFaces          19;
+        startFace       1355;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        3;
@@ -105,8 +105,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          9;
-        startFace       1371;
+        nFaces          7;
+        startFace       1374;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        3;

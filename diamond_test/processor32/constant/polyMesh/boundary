@@ -61,7 +61,7 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          18;
+        nFaces          15;
         startFace       1307;
         matchTolerance  0.0001;
         transform       unknown;
@@ -73,7 +73,7 @@ FoamFile
         type            processor;
         inGroups        List<word> 1(processor);
         nFaces          31;
-        startFace       1325;
+        startFace       1322;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        32;
@@ -83,8 +83,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          29;
-        startFace       1356;
+        nFaces          32;
+        startFace       1353;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        32;

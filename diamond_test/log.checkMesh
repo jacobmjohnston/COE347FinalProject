@@ -8,9 +8,9 @@
 Build  : 7-49b2b3b8b082
 Exec   : checkMesh
 Date   : Apr 24 2022
-Time   : 20:25:16
-Host   : "c416-074.stampede2.tacc.utexas.edu"
-PID    : 90880
+Time   : 20:33:02
+Host   : "c401-033.stampede2.tacc.utexas.edu"
+PID    : 12610
 I/O    : uncollated
 Case   : /work2/07705/jmj3957/stampede2/COE347FinalProject/diamond_test
 nProcs : 1
@@ -68,17 +68,17 @@ Checking geometry...
     Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
     Mesh has 2 solution (non-empty) directions (1 1 0)
     All edges aligned with or perpendicular to non-empty directions.
-    Boundary openness (-2.2339e-18 -1.90857e-18 -7.1651e-17) OK.
-    Max cell openness = 2.41374e-16 OK.
-    Max aspect ratio = 15.7653 OK.
-    Minimum face area = 2.53508e-05. Maximum face area = 0.192727.  Face area magnitudes OK.
-    Min volume = 2.53508e-06. Max volume = 0.0192727.  Total volume = 7.99.  Cell volumes OK.
-    Mesh non-orthogonality Max: 75.9924 average: 22.6012
-   *Number of severely non-orthogonal (> 70 degrees) faces: 68.
+    Boundary openness (-2.2339e-18 -1.90857e-18 -8.44173e-17) OK.
+    Max cell openness = 2.62275e-16 OK.
+    Max aspect ratio = 21.1381 OK.
+    Minimum face area = 2.58236e-05. Maximum face area = 0.192727.  Face area magnitudes OK.
+    Min volume = 2.58236e-06. Max volume = 0.0192727.  Total volume = 7.99.  Cell volumes OK.
+    Mesh non-orthogonality Max: 81.7912 average: 22.6913
+   *Number of severely non-orthogonal (> 70 degrees) faces: 94.
     Non-orthogonality check OK.
-  <<Writing 68 non-orthogonal faces to set nonOrthoFaces
+  <<Writing 94 non-orthogonal faces to set nonOrthoFaces
     Face pyramids OK.
-    Max skewness = 1.47079 OK.
+    Max skewness = 1.46535 OK.
     Coupled point location match (average 0) OK.
 
 Mesh OK.

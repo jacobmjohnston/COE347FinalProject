@@ -26,7 +26,7 @@ FoamFile
     outlet
     {
         type            patch;
-        nFaces          13;
+        nFaces          14;
         startFace       623;
     }
     airfoil
@@ -34,35 +34,35 @@ FoamFile
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          0;
-        startFace       636;
+        startFace       637;
     }
     top
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       636;
+        startFace       637;
     }
     bottom
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       636;
+        startFace       637;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          666;
-        startFace       636;
+        startFace       637;
     }
     procBoundary23to17
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          31;
-        startFace       1302;
+        nFaces          32;
+        startFace       1303;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        23;
@@ -73,7 +73,7 @@ FoamFile
         type            processor;
         inGroups        List<word> 1(processor);
         nFaces          5;
-        startFace       1333;
+        startFace       1335;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        23;
@@ -83,8 +83,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          8;
-        startFace       1338;
+        nFaces          7;
+        startFace       1340;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        23;
@@ -94,8 +94,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          29;
-        startFace       1346;
+        nFaces          28;
+        startFace       1347;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        23;
