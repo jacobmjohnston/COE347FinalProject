@@ -46,11 +46,6 @@ boundaryField
     {
         type            empty;
     }
-    procBoundary21to14
-    {
-        type            processor;
-        value           uniform 0;
-    }
     procBoundary21to15
     {
         type            processor;
@@ -67,6 +62,11 @@ boundaryField
         value           uniform 0;
     }
     procBoundary21to27
+    {
+        type            processor;
+        value           uniform 0;
+    }
+    procBoundary21to28
     {
         type            processor;
         value           uniform 0;

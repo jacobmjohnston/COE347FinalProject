@@ -40,7 +40,7 @@ FoamFile
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
-        nFaces          17;
+        nFaces          18;
         startFace       630;
     }
     bottom
@@ -48,21 +48,21 @@ FoamFile
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       647;
+        startFace       648;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          670;
-        startFace       647;
+        startFace       648;
     }
     procBoundary34to28
     {
         type            processor;
         inGroups        List<word> 1(processor);
         nFaces          21;
-        startFace       1317;
+        startFace       1318;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        34;
@@ -73,7 +73,7 @@ FoamFile
         type            processor;
         inGroups        List<word> 1(processor);
         nFaces          6;
-        startFace       1338;
+        startFace       1339;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        34;
@@ -83,8 +83,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          22;
-        startFace       1344;
+        nFaces          21;
+        startFace       1345;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        34;

@@ -21,48 +21,48 @@ FoamFile
     {
         type            patch;
         nFaces          0;
-        startFace       625;
+        startFace       624;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       625;
+        startFace       624;
     }
     airfoil
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          0;
-        startFace       625;
+        startFace       624;
     }
     top
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          12;
-        startFace       625;
+        startFace       624;
     }
     bottom
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       637;
+        startFace       636;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          670;
-        startFace       637;
+        startFace       636;
     }
     procBoundary32to26
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          15;
-        startFace       1307;
+        nFaces          20;
+        startFace       1306;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        32;
@@ -72,8 +72,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          31;
-        startFace       1322;
+        nFaces          27;
+        startFace       1326;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        32;
@@ -83,7 +83,7 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          32;
+        nFaces          33;
         startFace       1353;
         matchTolerance  0.0001;
         transform       unknown;

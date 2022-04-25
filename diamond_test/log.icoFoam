@@ -8,50 +8,50 @@
 Build  : 7-49b2b3b8b082
 Exec   : icoFoam -parallel
 Date   : Apr 24 2022
-Time   : 20:33:25
-Host   : "c401-033.stampede2.tacc.utexas.edu"
-PID    : 18162
+Time   : 20:45:49
+Host   : "c406-051.stampede2.tacc.utexas.edu"
+PID    : 145717
 I/O    : uncollated
 Case   : /work2/07705/jmj3957/stampede2/COE347FinalProject/diamond_test
 nProcs : 36
 Slaves : 
 35
 (
-"c401-033.stampede2.tacc.utexas.edu.18163"
-"c401-033.stampede2.tacc.utexas.edu.18164"
-"c401-033.stampede2.tacc.utexas.edu.18165"
-"c401-033.stampede2.tacc.utexas.edu.18166"
-"c401-033.stampede2.tacc.utexas.edu.18167"
-"c401-033.stampede2.tacc.utexas.edu.18168"
-"c401-033.stampede2.tacc.utexas.edu.18169"
-"c401-033.stampede2.tacc.utexas.edu.18170"
-"c401-033.stampede2.tacc.utexas.edu.18171"
-"c401-033.stampede2.tacc.utexas.edu.18172"
-"c401-033.stampede2.tacc.utexas.edu.18173"
-"c401-033.stampede2.tacc.utexas.edu.18174"
-"c401-033.stampede2.tacc.utexas.edu.18175"
-"c401-033.stampede2.tacc.utexas.edu.18176"
-"c401-033.stampede2.tacc.utexas.edu.18177"
-"c401-033.stampede2.tacc.utexas.edu.18178"
-"c401-033.stampede2.tacc.utexas.edu.18179"
-"c401-033.stampede2.tacc.utexas.edu.18180"
-"c401-033.stampede2.tacc.utexas.edu.18181"
-"c401-033.stampede2.tacc.utexas.edu.18182"
-"c401-033.stampede2.tacc.utexas.edu.18183"
-"c401-033.stampede2.tacc.utexas.edu.18184"
-"c401-033.stampede2.tacc.utexas.edu.18185"
-"c401-033.stampede2.tacc.utexas.edu.18186"
-"c401-033.stampede2.tacc.utexas.edu.18187"
-"c401-033.stampede2.tacc.utexas.edu.18188"
-"c401-033.stampede2.tacc.utexas.edu.18189"
-"c401-033.stampede2.tacc.utexas.edu.18190"
-"c401-033.stampede2.tacc.utexas.edu.18191"
-"c401-033.stampede2.tacc.utexas.edu.18192"
-"c401-033.stampede2.tacc.utexas.edu.18193"
-"c401-033.stampede2.tacc.utexas.edu.18194"
-"c401-033.stampede2.tacc.utexas.edu.18195"
-"c401-033.stampede2.tacc.utexas.edu.18196"
-"c401-033.stampede2.tacc.utexas.edu.18197"
+"c406-051.stampede2.tacc.utexas.edu.145718"
+"c406-051.stampede2.tacc.utexas.edu.145719"
+"c406-051.stampede2.tacc.utexas.edu.145720"
+"c406-051.stampede2.tacc.utexas.edu.145721"
+"c406-051.stampede2.tacc.utexas.edu.145722"
+"c406-051.stampede2.tacc.utexas.edu.145723"
+"c406-051.stampede2.tacc.utexas.edu.145724"
+"c406-051.stampede2.tacc.utexas.edu.145725"
+"c406-051.stampede2.tacc.utexas.edu.145726"
+"c406-051.stampede2.tacc.utexas.edu.145727"
+"c406-051.stampede2.tacc.utexas.edu.145728"
+"c406-051.stampede2.tacc.utexas.edu.145729"
+"c406-051.stampede2.tacc.utexas.edu.145730"
+"c406-051.stampede2.tacc.utexas.edu.145731"
+"c406-051.stampede2.tacc.utexas.edu.145732"
+"c406-051.stampede2.tacc.utexas.edu.145733"
+"c406-051.stampede2.tacc.utexas.edu.145734"
+"c406-051.stampede2.tacc.utexas.edu.145735"
+"c406-051.stampede2.tacc.utexas.edu.145736"
+"c406-051.stampede2.tacc.utexas.edu.145737"
+"c406-051.stampede2.tacc.utexas.edu.145738"
+"c406-051.stampede2.tacc.utexas.edu.145739"
+"c406-051.stampede2.tacc.utexas.edu.145740"
+"c406-051.stampede2.tacc.utexas.edu.145741"
+"c406-051.stampede2.tacc.utexas.edu.145742"
+"c406-051.stampede2.tacc.utexas.edu.145743"
+"c406-051.stampede2.tacc.utexas.edu.145744"
+"c406-051.stampede2.tacc.utexas.edu.145745"
+"c406-051.stampede2.tacc.utexas.edu.145746"
+"c406-051.stampede2.tacc.utexas.edu.145747"
+"c406-051.stampede2.tacc.utexas.edu.145748"
+"c406-051.stampede2.tacc.utexas.edu.145749"
+"c406-051.stampede2.tacc.utexas.edu.145750"
+"c406-051.stampede2.tacc.utexas.edu.145751"
+"c406-051.stampede2.tacc.utexas.edu.145752"
 )
 
 Pstream initialized with:
@@ -109,14 +109,14 @@ forceCoeffs forceCoeffs:
     Not including porosity effects
 Time = 0.0002
 
-Courant Number mean: 0.00201529 max: 0.039716
-smoothSolver:  Solving for Ux, Initial residual = 1, Final residual = 3.35438e-08, No Iterations 10
+Courant Number mean: 0.00207706 max: 0.19876
+smoothSolver:  Solving for Ux, Initial residual = 1, Final residual = 8.72047e-08, No Iterations 11
 smoothSolver:  Solving for Uy, Initial residual = 0, Final residual = 0, No Iterations 0
-DICPCG:  Solving for p, Initial residual = 1, Final residual = 9.71891e-08, No Iterations 291
-time step continuity errors : sum local = 9.76298e-14, global = -3.86642e-16, cumulative = -3.86642e-16
-DICPCG:  Solving for p, Initial residual = 0.22183, Final residual = 9.22219e-08, No Iterations 273
-time step continuity errors : sum local = 5.51646e-13, global = -7.43014e-15, cumulative = -7.81678e-15
-ExecutionTime = 0.68 s  ClockTime = 2 s
+DICPCG:  Solving for p, Initial residual = 1, Final residual = 9.83566e-08, No Iterations 318
+time step continuity errors : sum local = 9.50175e-14, global = -8.53367e-16, cumulative = -8.53367e-16
+DICPCG:  Solving for p, Initial residual = 0.762141, Final residual = 9.95092e-08, No Iterations 305
+time step continuity errors : sum local = 1.76092e-12, global = 1.49281e-14, cumulative = 1.40747e-14
+ExecutionTime = 0.78 s  ClockTime = 2 s
 
 forces forces write:
     sum of forces:
@@ -137,14 +137,14 @@ forceCoeffs forceCoeffs write:
 
 Time = 0.0004
 
-Courant Number mean: 0.00200982 max: 0.0826753
-smoothSolver:  Solving for Ux, Initial residual = 0.175371, Final residual = 2.21187e-08, No Iterations 6
-smoothSolver:  Solving for Uy, Initial residual = 0.197126, Final residual = 3.18689e-08, No Iterations 7
-DICPCG:  Solving for p, Initial residual = 0.464063, Final residual = 9.95864e-08, No Iterations 274
-time step continuity errors : sum local = 8.04789e-13, global = -6.1349e-15, cumulative = -1.39517e-14
-DICPCG:  Solving for p, Initial residual = 0.503644, Final residual = 9.77024e-08, No Iterations 270
-time step continuity errors : sum local = 5.73369e-13, global = 1.79817e-15, cumulative = -1.21535e-14
-ExecutionTime = 0.76 s  ClockTime = 2 s
+Courant Number mean: 0.0020921 max: 0.618223
+smoothSolver:  Solving for Ux, Initial residual = 0.252052, Final residual = 7.30163e+96, No Iterations 1000
+smoothSolver:  Solving for Uy, Initial residual = 0.151473, Final residual = 1.03911e+98, No Iterations 1000
+DICPCG:  Solving for p, Initial residual = 1, Final residual = 9.7385e-08, No Iterations 325
+time step continuity errors : sum local = 1.63685e+89, global = -5.64361e+86, cumulative = -5.64361e+86
+DICPCG:  Solving for p, Initial residual = 0.961528, Final residual = 9.09211e-08, No Iterations 329
+time step continuity errors : sum local = 1.17098e+91, global = -2.7165e+88, cumulative = -2.77294e+88
+ExecutionTime = 1.13 s  ClockTime = 2 s
 
 forces forces write:
     sum of forces:
@@ -165,135 +165,205 @@ forceCoeffs forceCoeffs write:
 
 Time = 0.0006
 
-Courant Number mean: 0.0020102 max: 0.0967783
-smoothSolver:  Solving for Ux, Initial residual = 0.0474238, Final residual = 3.30423e-08, No Iterations 7
-smoothSolver:  Solving for Uy, Initial residual = 0.0368251, Final residual = 3.89793e-08, No Iterations 7
-DICPCG:  Solving for p, Initial residual = 0.910487, Final residual = 8.82153e-08, No Iterations 271
-time step continuity errors : sum local = 7.53138e-13, global = 3.33942e-15, cumulative = -8.81409e-15
-DICPCG:  Solving for p, Initial residual = 0.739913, Final residual = 9.61003e-08, No Iterations 272
-time step continuity errors : sum local = 1.11602e-12, global = -1.19531e-14, cumulative = -2.07672e-14
-ExecutionTime = 0.82 s  ClockTime = 2 s
-
-forces forces write:
-    sum of forces:
-        pressure : (0 0 0)
-        viscous  : (0 0 0)
-        porous   : (0 0 0)
-    sum of moments:
-        pressure : (0 0 0)
-        viscous  : (0 0 0)
-        porous   : (0 0 0)
-
-forceCoeffs forceCoeffs write:
-    Cm    = 0
-    Cd    = 0
-    Cl    = 0
-    Cl(f) = 0
-    Cl(r) = 0
-
-Time = 0.0008
-
-Courant Number mean: 0.00201231 max: 0.169358
-smoothSolver:  Solving for Ux, Initial residual = 0.052756, Final residual = 4.40818e-08, No Iterations 8
-smoothSolver:  Solving for Uy, Initial residual = 0.0473546, Final residual = 3.06811e-08, No Iterations 8
-DICPCG:  Solving for p, Initial residual = 0.980376, Final residual = 9.37616e-08, No Iterations 276
-time step continuity errors : sum local = 2.55921e-12, global = 5.08379e-14, cumulative = 3.00708e-14
-DICPCG:  Solving for p, Initial residual = 0.874195, Final residual = 8.94424e-08, No Iterations 275
-time step continuity errors : sum local = 3.68889e-12, global = -6.31635e-14, cumulative = -3.30927e-14
-ExecutionTime = 0.88 s  ClockTime = 2 s
-
-forces forces write:
-    sum of forces:
-        pressure : (0 0 0)
-        viscous  : (0 0 0)
-        porous   : (0 0 0)
-    sum of moments:
-        pressure : (0 0 0)
-        viscous  : (0 0 0)
-        porous   : (0 0 0)
-
-forceCoeffs forceCoeffs write:
-    Cm    = 0
-    Cd    = 0
-    Cl    = 0
-    Cl(f) = 0
-    Cl(r) = 0
-
-Time = 0.001
-
-Courant Number mean: 0.00202482 max: 0.54675
-smoothSolver:  Solving for Ux, Initial residual = 0.0653348, Final residual = 2.95813e-08, No Iterations 9
-smoothSolver:  Solving for Uy, Initial residual = 0.114454, Final residual = 2.9814e-08, No Iterations 9
-DICPCG:  Solving for p, Initial residual = 0.992216, Final residual = 9.21497e-08, No Iterations 274
-time step continuity errors : sum local = 9.90988e-12, global = 1.25725e-13, cumulative = 9.26326e-14
-DICPCG:  Solving for p, Initial residual = 0.93427, Final residual = 9.84934e-08, No Iterations 276
-time step continuity errors : sum local = 1.61332e-11, global = -2.55582e-13, cumulative = -1.6295e-13
-ExecutionTime = 0.95 s  ClockTime = 2 s
-
-forces forces write:
-    sum of forces:
-        pressure : (0 0 0)
-        viscous  : (0 0 0)
-        porous   : (0 0 0)
-    sum of moments:
-        pressure : (0 0 0)
-        viscous  : (0 0 0)
-        porous   : (0 0 0)
-
-forceCoeffs forceCoeffs write:
-    Cm    = 0
-    Cd    = 0
-    Cl    = 0
-    Cl(f) = 0
-    Cl(r) = 0
-
-Time = 0.0012
-
-Courant Number mean: 0.00210997 max: 2.76464
-smoothSolver:  Solving for Ux, Initial residual = 0.0687817, Final residual = 5.64192e-08, No Iterations 8
-smoothSolver:  Solving for Uy, Initial residual = 0.190965, Final residual = 3.8959e-08, No Iterations 9
-DICPCG:  Solving for p, Initial residual = 0.980355, Final residual = 8.99731e-08, No Iterations 279
-time step continuity errors : sum local = 3.92954e-11, global = 4.41202e-13, cumulative = 2.78253e-13
-DICPCG:  Solving for p, Initial residual = 0.939794, Final residual = 9.32288e-08, No Iterations 282
-time step continuity errors : sum local = 6.42397e-11, global = 5.20059e-13, cumulative = 7.98312e-13
-ExecutionTime = 1.01 s  ClockTime = 2 s
-
-forces forces write:
-    sum of forces:
-        pressure : (0 0 0)
-        viscous  : (0 0 0)
-        porous   : (0 0 0)
-    sum of moments:
-        pressure : (0 0 0)
-        viscous  : (0 0 0)
-        porous   : (0 0 0)
-
-forceCoeffs forceCoeffs write:
-    Cm    = 0
-    Cd    = 0
-    Cl    = 0
-    Cl(f) = 0
-    Cl(r) = 0
-
-Time = 0.0014
-
-Courant Number mean: 0.00245291 max: 30.7677
-[15] #0  Foam::error::printStack(Foam::Ostream&) at ??:?
-[15] #1  Foam::sigFpe::sigHandler(int) at ??:?
-[15] #2  ? in "/lib64/libpthread.so.0"
-[15] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) at ??:?
-[15] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
-[15] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
-[15] #6  ? at ??:?
-[15] #7  ? at ??:?
-[15] #8  ? at ??:?
-[15] #9  ? at ??:?
-[15] #10  __libc_start_main in "/lib64/libc.so.6"
-[15] #11  ? at ??:?
-
+Courant Number mean: 1.94064e+99 max: 2.53245e+103
+[3] #0  [5] #0  Foam::error::printStack(Foam::Ostream&)[19] #0  Foam::error::printStack(Foam::Ostream&)[20] #0  Foam::error::printStack(Foam::Ostream&)[24] #0  Foam::error::printStack(Foam::Ostream&)[28] #0  Foam::error::printStack(Foam::Ostream&)[32] #0  Foam::error::printStack(Foam::Ostream&)[1] #0  Foam::error::printStack(Foam::Ostream&)Foam::error::printStack(Foam::Ostream&)[4] #0  Foam::error::printStack(Foam::Ostream&)[8] #0  Foam::error::printStack(Foam::Ostream&)[14] #0  Foam::error::printStack(Foam::Ostream&)[16] #0  Foam::error::printStack(Foam::Ostream&)[18] #0  Foam::error::printStack(Foam::Ostream&)[26] #0  Foam::error::printStack(Foam::Ostream&)[29] #0  Foam::error::printStack(Foam::Ostream&)[31] #0  Foam::error::printStack(Foam::Ostream&)[34] #0  Foam::error::printStack(Foam::Ostream&)[35] #0  Foam::error::printStack(Foam::Ostream&) at ??:?
+ at ??:?
+ at ??:?
+ at ??:?
+ at ??:?
+[20] #1  Foam::sigFpe::sigHandler(int)[26] #1  Foam::sigFpe::sigHandler(int)[1] #1  Foam::sigFpe::sigHandler(int)[19] #1  Foam::sigFpe::sigHandler(int) at ??:?
+[18] #1  Foam::sigFpe::sigHandler(int) at ??:?
+ at ??:?
+ at ??:?
+ at ??:?
+[29] #1  Foam::sigFpe::sigHandler(int)[34] #1  Foam::sigFpe::sigHandler(int) at ??:?
+[31] #1  Foam::sigFpe::sigHandler(int)[32] #1  Foam::sigFpe::sigHandler(int)[28] #1  Foam::sigFpe::sigHandler(int)[24] #1  Foam::sigFpe::sigHandler(int) at ??:?
+[4] #1  Foam::sigFpe::sigHandler(int) at ??:?
+[3] #1  Foam::sigFpe::sigHandler(int) at ??:?
+ at ??:?
+[5] #1  Foam::sigFpe::sigHandler(int)[8] #1  Foam::sigFpe::sigHandler(int) at ??:?
+[35] #1  Foam::sigFpe::sigHandler(int) at ??:?
+[16] #1  Foam::sigFpe::sigHandler(int) at ??:?
+[14] #1  Foam::sigFpe::sigHandler(int) at ??:?
+[26] #2  ? at ??:?
+[1] #2  ? at ??:?
+[18] #2  ? at ??:?
+[19] #2  ? at ??:?
+[34] #2  ? at ??:?
+[20] #2  ? at ??:?
+[29] #2  ? at ??:?
+[31] #2  ? at ??:?
+[32] #2  ? at ??:?
+[28] #2  ? in "/lib64/libpthread.so.0"
+ at ??:?
+[24] #2  ?[26] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[1] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) at ??:?
+[4] #2  ? at ??:?
+[3] #2  ? in "/lib64/libpthread.so.0"
+ at ??:?
+[5] #2  ?[18] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) at ??:?
+[8] #2  ? in "/lib64/libpthread.so.0"
+[34] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[19] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) at ??:?
+[35] #2  ? in "/lib64/libpthread.so.0"
+[20] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) at ??:?
+[14] #2  ? at ??:?
+[16] #2  ? in "/lib64/libpthread.so.0"
+[29] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[31] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[32] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[28] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[24] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[4] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[3] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[5] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[8] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[35] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[14] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) in "/lib64/libpthread.so.0"
+[16] #3  Foam::symGaussSeidelSmoother::smooth(Foam::word const&, Foam::Field<double>&, Foam::lduMatrix const&, Foam::Field<double> const&, Foam::FieldField<Foam::Field, double> const&, Foam::UPtrList<Foam::lduInterfaceField const> const&, unsigned char, int) at ??:?
+[26] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[1] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[18] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[34] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[19] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[20] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[29] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[31] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[32] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[28] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[24] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[4] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[3] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[5] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[8] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[35] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+ at ??:?
+[16] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const[14] #4  Foam::symGaussSeidelSmoother::smooth(Foam::Field<double>&, Foam::Field<double> const&, unsigned char, int) const at ??:?
+[26] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[1] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[18] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[34] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[19] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[20] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[29] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[31] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[32] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[28] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[24] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[4] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+ at ??:?
+[3] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const[5] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+ at ??:?
+[8] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const[35] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[16] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[14] #5  Foam::smoothSolver::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+[26] #6   at ??:?
+[1] #6   at ??:?
+[18] #6   at ??:?
+[34] #6   at ??:?
+[19] #6   at ??:?
+[20] #6  ?? at ??:?
+[29] #6   at ??:?
+[31] #6  ? at ??:?
+[32] #6  ? at ??:?
+[28] #6   at ??:?
+[24] #6  ?? at ??:?
+[5] #6   at ??:?
+[4] #6   at ??:?
+[3] #6  ? at ??:?
+[8] #6   at ??:?
+[26] #7  ? at ??:?
+[1] #7   at ??:?
+[35] #6   at ??:?
+[16] #6  ? at ??:?
+[14] #6   at ??:?
+[18] #7  ?? at ??:?
+[34] #7   at ??:?
+[19] #7  ? at ??:?
+[20] #7  ???? at ??:?
+[29] #7  ?? at ??:?
+[31] #7  ??? at ??:?
+[32] #7  ???? at ??:?
+[28] #7   at ??:?
+[24] #7   at ??:?
+[3] #7   at ??:?
+[4] #7  ? at ??:?
+ at ??:?
+[5] #7  [1] #8   at ??:?
+[26] #8   at ??:?
+[8] #7   at ??:?
+[35] #7   at ??:?
+[16] #7  ? at ??:?
+[14] #7   at ??:?
+[18] #8   at ??:?
+[34] #8   at ??:?
+[19] #8   at ??:?
+[20] #8  ?? at ??:?
+[29] #8  ??? at ??:?
+[31] #8  ??????? at ??:?
+[32] #8  ????? at ??:?
+[28] #8   at ??:?
+[24] #8   at ??:?
+ at ??:?
+[5] #8  [4] #8   at ??:?
+[26] #9   at ??:?
+[1] #9   at ??:?
+[8] #8   at ??:?
+[3] #8   at ??:?
+[35] #8   at ??:?
+[16] #8  ? at ??:?
+[14] #8   at ??:?
+[18] #9   at ??:?
+[34] #9   at ??:?
+[19] #9   at ??:?
+[20] #9  ?? at ??:?
+[29] #9  ?? at ??:?
+[31] #9  ????????????? at ??:?
+[32] #9   at ??:?
+[28] #9   at ??:?
+[26] #10  __libc_start_main at ??:?
+[24] #9   at ??:?
+[8] #9   at ??:?
+[1] #10  __libc_start_main at ??:?
+[5] #9   at ??:?
+[4] #9   at ??:?
+[3] #9   at ??:?
+[35] #9   at ??:?
+[16] #9   at ??:?
+[14] #9   at ??:?
+[18] #10  __libc_start_main at ??:?
+[34] #10  __libc_start_main at ??:?
+[19] #10  __libc_start_main at ??:?
+[20] #10  __libc_start_main? at ??:?
+[29] #10  __libc_start_main? at ??:?
+[31] #10  __libc_start_main?? in "/lib64/libc.so.6"
+[26] #11  ?? in "/lib64/libc.so.6"
+[1] #11  ???? in "/lib64/libc.so.6"
+[18] #11   in "/lib64/libc.so.6"
+[34] #11   in "/lib64/libc.so.6"
+[19] #11   in "/lib64/libc.so.6"
+[20] #11   in "/lib64/libc.so.6"
+[29] #11  ? in "/lib64/libc.so.6"
+[31] #11  ? at ??:?
+[28] #10  __libc_start_main at ??:?
+[24] #10  __libc_start_main at ??:?
+[32] #10  __libc_start_main at ??:?
+[4]  at ??:?
+[5] #10  __libc_start_main#10  __libc_start_main at ??:?
+[8] #10  __libc_start_main at ??:?
+[35] #10  __libc_start_main? at ??:?
+[16] #10  __libc_start_main at ??:?
+[3] #10  __libc_start_main? at ??:?
+[14] #10  __libc_start_main???? at ??:?
+ at ??:?
+ in "/lib64/libc.so.6"
+[28] #11   in "/lib64/libc.so.6"
+[24] #11   in "/lib64/libc.so.6"
+[32] #11   in "/lib64/libc.so.6"
+[4] #11   in 
 ===================================================================================
 =   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
-=   PID 18177 RUNNING AT c401-033
+=   PID 145718 RUNNING AT c406-051
 =   EXIT CODE: 8
 =   CLEANING UP REMAINING PROCESSES
 =   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES

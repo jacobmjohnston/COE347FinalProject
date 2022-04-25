@@ -8,9 +8,9 @@
 Build  : 7-49b2b3b8b082
 Exec   : checkMesh
 Date   : Apr 24 2022
-Time   : 20:33:02
-Host   : "c401-033.stampede2.tacc.utexas.edu"
-PID    : 12610
+Time   : 20:45:24
+Host   : "c406-051.stampede2.tacc.utexas.edu"
+PID    : 140742
 I/O    : uncollated
 Case   : /work2/07705/jmj3957/stampede2/COE347FinalProject/diamond_test
 nProcs : 1
@@ -68,20 +68,23 @@ Checking geometry...
     Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
     Mesh has 2 solution (non-empty) directions (1 1 0)
     All edges aligned with or perpendicular to non-empty directions.
-    Boundary openness (-2.2339e-18 -1.90857e-18 -8.44173e-17) OK.
-    Max cell openness = 2.62275e-16 OK.
-    Max aspect ratio = 21.1381 OK.
-    Minimum face area = 2.58236e-05. Maximum face area = 0.192727.  Face area magnitudes OK.
-    Min volume = 2.58236e-06. Max volume = 0.0192727.  Total volume = 7.99.  Cell volumes OK.
-    Mesh non-orthogonality Max: 81.7912 average: 22.6913
-   *Number of severely non-orthogonal (> 70 degrees) faces: 94.
-    Non-orthogonality check OK.
-  <<Writing 94 non-orthogonal faces to set nonOrthoFaces
-    Face pyramids OK.
-    Max skewness = 1.46535 OK.
+    Boundary openness (-2.22728e-18 -1.90292e-18 -1.71231e-16) OK.
+    Max cell openness = 4.97013e-16 OK.
+    Max aspect ratio = 39.6799 OK.
+    Minimum face area = 1.00788e-05. Maximum face area = 0.192727.  Face area magnitudes OK.
+ ***Zero or negative cell volume detected.  Minimum negative volume: -0.000266788, Number of negative volume cells: 110
+  <<Writing 110 zero volume cells to set zeroVolumeCells
+    Mesh non-orthogonality Max: 129.662 average: 29.4731
+   *Number of severely non-orthogonal (> 70 degrees) faces: 799.
+ ***Number of non-orthogonality errors: 213.
+  <<Writing 1012 non-orthogonal faces to set nonOrthoFaces
+ ***Error in face pyramids: 666 faces are incorrectly oriented.
+  <<Writing 479 faces with incorrect orientation to set wrongOrientedFaces
+ ***Max skewness = 20.0353, 8 highly skew faces detected which may impair the quality of the results
+  <<Writing 8 skew faces to set skewFaces
     Coupled point location match (average 0) OK.
 
-Mesh OK.
+Failed 4 mesh checks.
 
 End
 

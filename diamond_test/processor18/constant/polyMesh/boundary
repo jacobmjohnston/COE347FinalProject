@@ -15,7 +15,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-11
+10
 (
     inlet
     {
@@ -61,30 +61,19 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          50;
+        nFaces          60;
         startFace       1269;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        18;
         neighbProcNo    12;
     }
-    procBoundary18to13
-    {
-        type            processor;
-        inGroups        List<word> 1(processor);
-        nFaces          3;
-        startFace       1319;
-        matchTolerance  0.0001;
-        transform       unknown;
-        myProcNo        18;
-        neighbProcNo    13;
-    }
     procBoundary18to19
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          30;
-        startFace       1322;
+        nFaces          12;
+        startFace       1329;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        18;
@@ -94,8 +83,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          48;
-        startFace       1352;
+        nFaces          51;
+        startFace       1341;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        18;
@@ -105,8 +94,8 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          1;
-        startFace       1400;
+        nFaces          9;
+        startFace       1392;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        18;

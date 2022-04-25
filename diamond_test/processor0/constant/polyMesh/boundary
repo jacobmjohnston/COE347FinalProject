@@ -15,54 +15,54 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-9
+8
 (
     inlet
     {
         type            patch;
-        nFaces          23;
-        startFace       622;
+        nFaces          25;
+        startFace       624;
     }
     outlet
     {
         type            patch;
         nFaces          0;
-        startFace       645;
+        startFace       649;
     }
     airfoil
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          0;
-        startFace       645;
+        startFace       649;
     }
     top
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          0;
-        startFace       645;
+        startFace       649;
     }
     bottom
     {
         type            symmetryPlane;
         inGroups        List<word> 1(symmetryPlane);
         nFaces          14;
-        startFace       645;
+        startFace       649;
     }
     defaultFaces
     {
         type            empty;
         inGroups        List<word> 1(empty);
         nFaces          666;
-        startFace       659;
+        startFace       663;
     }
     procBoundary0to1
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          28;
-        startFace       1325;
+        nFaces          24;
+        startFace       1329;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        0;
@@ -72,23 +72,12 @@ FoamFile
     {
         type            processor;
         inGroups        List<word> 1(processor);
-        nFaces          22;
+        nFaces          21;
         startFace       1353;
         matchTolerance  0.0001;
         transform       unknown;
         myProcNo        0;
         neighbProcNo    6;
-    }
-    procBoundary0to7
-    {
-        type            processor;
-        inGroups        List<word> 1(processor);
-        nFaces          1;
-        startFace       1375;
-        matchTolerance  0.0001;
-        transform       unknown;
-        myProcNo        0;
-        neighbProcNo    7;
     }
 )
 
