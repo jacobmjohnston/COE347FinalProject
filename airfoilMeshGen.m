@@ -6,7 +6,7 @@ Lw = 6;             % Length of wake region
 Lf = 4;             % Length of fore region
 d = .5;             % Width of "circular" region
 fac = 1;            % Vertical stretch factor for d
-type = ["diamond","cylinder"];  % Type of airfoil
+type = "diamond";  % Type of airfoil
 n = 8;              % Number of points on airfoil and "circular" region 
 ns = 1;             % Spline points
 alpha = 10;         % Angle of attack
@@ -30,7 +30,7 @@ Vert(3,N/2+1:end) = 0.05;
 
 % Creates airfoil and "circular" region vertices
 for k = 1:2
-    f = @(x)(airfoil(x,t + (k-1)*fac*d,c + (k-1)*d,type(k)));  % Easy function call
+    f = @(x)(airfoil(x,t + (k-1)*fac*d,c + (k-1)*d,type));  % Easy function call
     pL1 = pathLength(f,c + (k-1)*d,0,100);
     pL2 = pathLength(f,0,-c - (k-1)*d,100);
     set1 = (k-1)*n + [1, n/4+1, n/2+1];
